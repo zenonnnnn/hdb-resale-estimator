@@ -16,22 +16,13 @@ st.markdown("""
 <style>
     /* Base layout */
     .stApp {
-        background-image: url('https://images.pexels.com/photos/15480511/pexels-photo-15480511.jpeg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-    
-    .stApp::before {
-        content: "";
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.99);
-        z-index: -1;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('https://images.pexels.com/photos/15480511/pexels-photo-15480511.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     }
     
     /* Hide empty containers */
