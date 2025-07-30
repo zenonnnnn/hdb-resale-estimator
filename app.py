@@ -256,7 +256,7 @@ border-radius: 10px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 </div>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="main-container">', unsafe_allow_html=True)
+st.markdown("<div style='margin-top: -30px;'></div>", unsafe_allow_html=True)
 
 st.subheader("Property Details")
 
